@@ -1,5 +1,7 @@
 import os
 
+# test commit
+
 def get_documents(feature_type,ngram_size):
     documents = {}
     files = [os.path.join('./data/training/', f) for f in os.listdir('./data/training/') if os.path.isfile(os.path.join('./data/training/', f))]
